@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+    <key>CFBundleDisplayName</key>
+    <string>网页附件采集识别工具</string>
+    <key>CFBundleExecutable</key>
+    <string>WebAttachCollector</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.webattach.collector</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>网页附件采集识别工具</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <!-- 采集目标由用户自由填写，可能是 http 站点；仅允许任意加载，不使用 WebContent 子项（会覆盖本项）。 -->
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>需要读取你选择的桌面文件夹，用于保存采集结果与笔记。</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>需要读取你选择的文稿文件夹，用于保存采集结果与笔记。</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>需要读取你选择的下载文件夹，用于保存采集结果与笔记。</string>
+    <key>NSRemovableVolumesUsageDescription</key>
+    <string>需要读取你选择的外部磁盘目录，用于保存采集结果与笔记。</string>
+    <key>NSNetworkVolumesUsageDescription</key>
+    <string>需要读取你选择的网络磁盘目录，用于保存采集结果与笔记。</string>
+</dict>
+</plist>

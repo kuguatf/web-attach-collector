@@ -1,0 +1,14 @@
+# 构建产物
+.build/
+dist/
+
+# IDE / 本机文件
+.trae/
+.screenshots/
+.DS_Store
+
+# 验证下载内容（体积大且含第三方文档）
+validation/openstd_downloads/
+
+# 其他
+*.xcuserstate
